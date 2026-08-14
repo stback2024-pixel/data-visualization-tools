@@ -1,0 +1,5 @@
+<html><head><title>Interactive Data Visualization Demo</title></head><body>
+<h1>Welcome to Interactive Data Visualization Tools!</h1>
+<p>This demo allows you to import your own CSV files, filter and sort data, and generate real-time visualizations such as graphs and charts.</p>
+<div id='visualization'></div>
+<script src="https://cdn.jsdelivr.net/npm/vis-network.min.js"></script><script>document.getElementById('visualization').innerHTML = '<canvas id="myChart" width="400px" height="400px"></canvas>'; var ctx = document.getElementById('myChart').getContext('2d'); var myChart = new Chart(ctx, {type: 'bar', data: {labels: ['Red', 'Blue', 'Yellow'], datasets: [{data: [12, 19, 3], backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56']}]}, options: {} });</script></body></html>
