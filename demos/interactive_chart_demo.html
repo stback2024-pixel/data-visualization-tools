@@ -1,0 +1,16 @@
+<html><head><title>Interactive Chart Demo</title></head><body>
+<h1>Welcome to Interactive Data Visualization Tools!</h1>
+<p>This demo showcases real-time interactive charting capabilities.</p>
+<div id='chart'></div>
+<script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    var data = [
+        {x: [1, 2, 3, 4], y: [10, 15, 13, 17], type: 'scatter', mode: 'lines+markers'},
+        {x: [1, 2, 3, 4], y: [16, 18, 14, 19], type: 'bar'}
+    ];
+
+    Plotly.newPlot('chart', data);
+});
+</script>
+</body></html>
