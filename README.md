@@ -1,16 +1,15 @@
-# Data Visualization Tools
+# Interactive Data Visualization Tools
 
-Welcome to the repository for interactive data visualization tools! This project aims to provide custom-built solutions for analysts and data scientists looking to visualize complex datasets more efficiently.
+This repository contains a collection of interactive data visualization tools and widgets designed to help analysts and data scientists visualize complex datasets, conduct exploratory analysis, and uncover trends within the data more efficiently.
 
 ## Features
-- Import public or custom CSV files
-- Basic filtering, sorting, and real-time visualizations
-- Interactive widgets for exploratory analysis
+- Fetch public data sources or import custom CSV files
+- Basic interactive features such as filtering, sorting, and generating real-time visualizations (graphs, charts)
 
-## Getting Started
-1. Clone the repository: `git clone https://github.com/stback2024-pixel/data-visualization-tools.git`
-2. Install dependencies (`pandas`, `matplotlib`)
-3. Run scripts to visualize your data
+## Usage Instructions
+1. Clone this repository to your local machine: `git clone https://github.com/stback2024-pixel/data-visualization-tools.git`
+2. Install the necessary dependencies using pip or conda.
+3. Run the interactive data explorer script by executing `python scripts/interactive_data_explorer.py` in your terminal.
 
 ## Contributing
-Contributions are welcome! Feel free to fork this repo and submit pull requests.
+If you would like to contribute to this project, please submit a pull request with your proposed changes and enhancements.
